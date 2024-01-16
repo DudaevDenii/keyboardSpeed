@@ -1,0 +1,23 @@
+.outlineButton{
+    border: 2px solid #e0e0e0;
+    background-color: #121212;
+    border-radius: 20px;
+    color: #e0e0e0;
+    transition: 0.3s;
+    &:hover{
+        border: 2px solid #121212;
+        background-color:#e0e0e0;
+        color: #121212;
+    }
+}
+.nonOutlineButton{
+    border: 2px solid #121212;
+    background-color: #e0e0e0;
+    border-radius: 20px;
+    transition: 0.3s;
+    &:hover{
+        border: 2px solid #e0e0e0;
+        background-color: #121212;
+        color: #e0e0e0;
+    }
+}

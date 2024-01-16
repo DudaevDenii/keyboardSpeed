@@ -1,0 +1,50 @@
+.header {
+    height: 70px;
+    width: 100%;
+    background-color: #121212;
+    color: #e0e0e0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  
+  .logo {
+    font-size: 28px;
+    font-family: 'Courier New', Courier, monospace;
+    cursor: pointer;
+  }
+  
+  .navbar {
+    display: flex;
+    gap: 30px;
+    font-size: 18px;
+    letter-spacing: 2px;
+  }
+  
+  .modalButton {
+    font-size: 24px;
+    cursor: pointer;
+    display: none;
+  }
+  
+  @media (max-width: 856px) {
+    .navbar {
+      position: absolute;
+      display: none;
+      flex-direction: column;
+      top: 70px;
+      left: 0;
+      right: 0;
+      background-color: rgba(0, 0, 0, 0.8);
+      padding: 10px;
+    }
+  
+    .show {
+      display: flex;
+    }
+  
+    .modalButton {
+      display: block;
+    }
+  }

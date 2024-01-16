@@ -1,0 +1,25 @@
+.level{
+    width: 300px;
+    height: 50px;
+    border-radius: 40px;
+    margin: 10px auto;
+    padding: 20px;
+    background-color: #121212;
+    color: #e0e0e0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    gap: 10px;
+}
+.levelBox{
+    width: 35px;
+    height: 35px;
+    background-color: #e0e0e0;
+    border-radius: 5px;
+    color: #121212;
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
